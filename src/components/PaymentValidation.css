@@ -1,0 +1,95 @@
+.debit-card-body {
+  height: 250px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: darkgoldenrod;
+  margin-left: calc(50% - 250px);
+}
+
+.debit-card-no {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.debit-card-date {
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.debit-cards-stripe {
+  width: 90% !important;
+  height: 10px !important;
+  background-color: black !important;
+}
+.debit-card-cvv {
+  font-size: 15px;
+  color: white;
+  margin-left: 140px;
+  text-align: right;
+}
+.debit-card-bank {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.debit-card-holder-name {
+  font-size: 15px;
+  color: white;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.debit-card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.list-card {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: skyblue;
+  margin: 20px;
+}
+
+.list-card-title {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.list-card:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: none;
+  height: 500px;
+  width: 250px;
+}
+
+.invalid-text {
+  font-size: 12px;
+  color: rgb(176, 24, 24);
+  margin-top: 4px;
+  margin-bottom: -6px;
+}
